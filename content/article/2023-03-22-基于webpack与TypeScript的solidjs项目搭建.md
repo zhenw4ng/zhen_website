@@ -35,7 +35,7 @@ question version (1.0.0):
 question description: 
 question entry point (index.js): 
 question repository url: 
-question author (w4ngzhen <w4ngzhen@hotmail.com>): 
+question author xxx
 question license (MIT): 
 question private: 
 success Saved package.json
@@ -102,7 +102,7 @@ yarn add -D typescript
   "name": "solidjs-webpack-ts-example",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "w4ngzhen",
+  "author": "zhenw4ng",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.3",
@@ -333,4 +333,4 @@ render(() => <HelloWorld/>, document.querySelector('#app')!)
 
 项目代码地址：
 
-[w4ngzhen/solidjs-webpack-ts-example (github.com)](https://github.com/w4ngzhen/solidjs-webpack-ts-example)
+[zhenw4ng/solidjs-webpack-ts-example (github.com)](https://github.com/zhenw4ng/solidjs-webpack-ts-example)

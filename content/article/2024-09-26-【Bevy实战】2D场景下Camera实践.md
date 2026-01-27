@@ -253,7 +253,7 @@ WARN bevy_render::camera::camera: Camera order ambiguities detected for active c
 
 # 写在最后
 
-本文的代码仓库为：[w4ngzhen/bevy_examples (github.com)](https://github.com/w4ngzhen/bevy_examples)。同时，后续我会添加更多的示例供读者参考。
+本文的代码仓库为：[zhenw4ng/bevy_examples (github.com)](https://github.com/zhenw4ng/bevy_examples)。同时，后续我会添加更多的示例供读者参考。
 
 ## 相关阅读以及参考
 

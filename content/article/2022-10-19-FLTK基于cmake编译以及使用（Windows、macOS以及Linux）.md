@@ -298,7 +298,7 @@ ninja: build stopped: subcommand failed.
 ```
 [ 50%] Building CXX object CMakeFiles/fltk_demo.dir/src/main.cpp.o
 [100%] Linking CXX executable fltk_demo
-/usr/bin/ld: /home/w4ngzhen/Desktop/fltk-demo/fltk-dist-1.3.8/lib/Linux-release/libfltk.a(Fl_get_system_colors.o): in function `getsyscolor(char const*, char const*, char const*, char const*, void (*)(unsigned char, unsigned char, unsigned char))':
+/usr/bin/ld: /home/zhenw4ng/Desktop/fltk-demo/fltk-dist-1.3.8/lib/Linux-release/libfltk.a(Fl_get_system_colors.o): in function `getsyscolor(char const*, char const*, char const*, char const*, void (*)(unsigned char, unsigned char, unsigned char))':
 Fl_get_system_colors.cxx:(.text._ZL11getsyscolorPKcS0_S0_S0_PFvhhhE+0x24): undefined reference to `XGetDefault'
 /usr/bin/ld: Fl_get_system_colors.cxx:(.text._ZL11getsyscolorPKcS0_S0_S0_PFvhhhE+0x47): undefined reference to `XParseColor'
 ... ...
@@ -318,7 +318,7 @@ make: *** [Makefile:91: all] Error 2
 ```
 [ 50%] Building CXX object CMakeFiles/fltk_demo.dir/src/main.cpp.o
 [100%] Linking CXX executable fltk_demo
-/usr/bin/ld: /home/w4ngzhen/Desktop/fltk-demo/fltk-dist-1.3.8/lib/Linux-release/libfltk.a(Fl_Window_shape.o): undefined reference to symbol 'dlsym@@GLIBC_2.2.5'
+/usr/bin/ld: /home/zhenw4ng/Desktop/fltk-demo/fltk-dist-1.3.8/lib/Linux-release/libfltk.a(Fl_Window_shape.o): undefined reference to symbol 'dlsym@@GLIBC_2.2.5'
 /usr/bin/ld: /lib/x86_64-linux-gnu/libdl.so.2: error adding symbols: DSO missing from command line
 collect2: error: ld returned 1 exit status
 make[2]: *** [CMakeFiles/fltk_demo.dir/build.make:97: fltk_demo] Error 1
@@ -348,11 +348,4 @@ make: *** [Makefile:91: all] Error 2
 
 本文项目代码已经提交至Github
 
-[w4ngzhen/fltk-demo (github.com)](https://github.com/w4ngzhen/fltk-demo)
-
-
-
-
-
-
-
+[zhenw4ng/fltk-demo (github.com)](https://github.com/zhenw4ng/fltk-demo)

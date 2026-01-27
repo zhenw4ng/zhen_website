@@ -349,7 +349,7 @@ module.exports = configure
 上述`build:custom`就是我们新加的配置，通过运行，果然，加载的是我们制定的url：
 
 ```
-gyp verb created nodedir C:\Users\w4ngzhen\AppData\Local\node-gyp\Cache\14.15.0
+gyp verb created nodedir C:\Users\xxx\AppData\Local\node-gyp\Cache\14.15.0
 // 这里报错忽略，因为使用的是一个无效的url: 'this_is_my_custom_url'
 // 主要是为了验证确实是改变了
 gyp http GET this_is_my_custom_url/v14.15.0/node-v14.15.0-headers.tar.gz

@@ -167,4 +167,4 @@ specs的代码逻辑细节就不在本文中进行展示了，烦请读者自行
 
 无论是[CDDA大灾变](https://cataclysmdda.org/)、[矮人要塞](https://www.bay12games.com/dwarves/)，还是[rogue](https://github.com/Davidslv/rogue)、[nethack](https://github.com/NetHack/NetHack)等游戏，它们都有着非常丰富的游戏内容，而这些内容除开本身有趣的逻辑外，往往都需要通过一些算法来实现，比如：地图生成、寻路、AI、战斗等等。后续内容笔者将会针对不同的游戏模块内容，介绍相关的开发逻辑、算法。比如经典的a-star寻路算法，基于simplex噪声、perlin噪声的地图生成算法，以及基于ECS的战斗系统等等。另外，笔者也会介绍使用ggez框架过程中学习到的绘图一些经验、技巧，尽情期待！
 
-代码仓库：[w4ngzhen/rs-game-dev (github.com)](https://github.com/w4ngzhen/rs-game-dev)
+代码仓库：[zhenw4ng/rs-game-dev (github.com)](https://github.com/zhenw4ng/rs-game-dev)

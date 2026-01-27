@@ -281,4 +281,4 @@ export function DesignCanvasExample() {
 
 本次相关代码已经提交至github，对应tag为chapter_03：
 
-[w4ngzhen/lite-lc at chapter_03 (github.com)](https://github.com/w4ngzhen/lite-lc/tree/chapter_03)
+[zhenw4ng/lite-lc at chapter_03 (github.com)](https://github.com/zhenw4ng/lite-lc/tree/chapter_03)

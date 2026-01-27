@@ -424,8 +424,8 @@ export {userToString, User};
 再次运行`yarn build`，读者会发现还是会报错，但这一次的错误略有点出乎意料：
 
 ```
-Module not found: Error: Can't resolve './utils' in '/Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/src'
-resolve './utils' in '/Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/src'
+Module not found: Error: Can't resolve './utils' in '/Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/src'
+resolve './utils' in '/Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/src'
 ```
 
 核心报错在于，webpack似乎无法找到utils这个模块。为什么呢？因为webpack默认是处理js代码的，如果你的代码中编写了`import xxx from 'xxx'`，在没有明确指明这个模块的后缀的时候，webpack只会认为这个模块是以下几种：
@@ -438,22 +438,22 @@ resolve './utils' in '/Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-de
 所以，你会看到具体一点的报错：
 
 ```
-resolve './utils' in '/Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/src'
-  using description file: /Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/package.json (relative path: ./src)
+resolve './utils' in '/Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/src'
+  using description file: /Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/package.json (relative path: ./src)
     Field 'browser' doesn't contain a valid alias configuration
-    using description file: /Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/package.json (relative path: ./src/utils)
+    using description file: /Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/package.json (relative path: ./src/utils)
       no extension
         Field 'browser' doesn't contain a valid alias configuration
-        /Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/src/utils doesn't exist
+        /Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/src/utils doesn't exist
       .js
         Field 'browser' doesn't contain a valid alias configuration
-        /Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/src/utils.js doesn't exist
+        /Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/src/utils.js doesn't exist
       .json
         Field 'browser' doesn't contain a valid alias configuration
-        /Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/src/utils.json doesn't exist
+        /Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/src/utils.json doesn't exist
       .wasm
         Field 'browser' doesn't contain a valid alias configuration
-        /Users/w4ngzhen/Projects/web-projects/webpack-ts-loader-demo/src/utils.wasm doesn't exist
+        /Users/zhenw4ng/Projects/web-projects/webpack-ts-loader-demo/src/utils.wasm doesn't exist
       as directory
 ```
 
@@ -599,14 +599,14 @@ export const hello = () => {
 ```
 ERROR in ./src/index.ts
 Module build failed (from ./node_modules/babel-loader/lib/index.js):
-SyntaxError: /Users/w4ngzhen/Projects/web-projects/webpack-babel-loader-demo/src/index.ts: Unexpected reserved word 'interface'. (1:0)
+SyntaxError: /Users/zhenw4ng/Projects/web-projects/webpack-babel-loader-demo/src/index.ts: Unexpected reserved word 'interface'. (1:0)
 
 > 1 | interface User {
     | ^
   2 |     name: string;
   3 |     age: number;
   4 | }
-    at instantiate (/Users/w4ngzhen/Projects/web-projects/webpack-babel-loader-demo/node_modules/@babel/parser/lib/index.js:72:32)
+    at instantiate (/Users/zhenw4ng/Projects/web-projects/webpack-babel-loader-demo/node_modules/@babel/parser/lib/index.js:72:32)
 ```
 
 出现了语法的错误，报错的主要原因在于没有把整个babel处理ts的链路打通。目前的链路是：webpack找到入口ts文件，匹配上babel-loader，babel-loader交给@babel/core，@babel/core处理ts。由于我们没有给@babel/core配置plugin、preset，所以导致了babel还是以默认的js角度来处理ts代码，所以有语法报错。此时，我们需要添加.babelrc文件来指明让babel加载处理ts代码的插件：

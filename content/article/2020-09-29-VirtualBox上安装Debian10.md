@@ -80,7 +80,7 @@ $ su
 $ vi /etc/sudoers
 
 # 3.在User privilege specification一行复制root对应的内容，添加一行当前用户的记录，内容为
-w4ngzhen(你的用户名，本人使用的w4ngzhen) ALL=(ALL:ALL) ALL
+xxx(你的用户名，本人使用的w4ngzhen) ALL=(ALL:ALL) ALL
 
 # 4.强制保存
 

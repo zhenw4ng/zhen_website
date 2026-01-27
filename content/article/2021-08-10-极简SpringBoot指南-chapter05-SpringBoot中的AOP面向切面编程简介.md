@@ -11,7 +11,7 @@ categories:
 
 ## 仓库地址
 
-[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)
+[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)
 
 # Chapter05-SpringBoot中的AOP面向切面编程简介
 
@@ -184,5 +184,4 @@ public class LogAspect {
 
 ## 仓库地址
 
-[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)
-
+[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)

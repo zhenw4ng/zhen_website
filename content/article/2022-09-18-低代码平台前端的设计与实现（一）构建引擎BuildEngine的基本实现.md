@@ -417,7 +417,7 @@ export function SimpleExample() {
 
 本章内容对应代码已经推送到github上
 
-[w4ngzhen/lite-lc (github.com)](https://github.com/w4ngzhen/lite-lc)
+[zhenw4ng/lite-lc (github.com)](https://github.com/zhenw4ng/lite-lc)
 
 main分支与最新文章同步，对应章节将会有对应的tag来标识。
 
@@ -430,8 +430,3 @@ add: 新增组件名称与组件构造器映射的数据容器，用于构建过
 add: ComponentNode 映射 JSON DSL
 init: 项目初始化，添加core and example 基础文件（使用antd5）。
 ```
-
-
-
-
-

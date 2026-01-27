@@ -100,7 +100,7 @@ axios, vue-el, ectron, vue-router, vuex, vuex-electron（插件包）
 ? Set up unit testing with Karma + Mocha? No（测试模块）
 ? Set up end-to-end testing with Spectron + Mocha? No（测试模块）
 ? What build tool would you like to use? builder # 这里我们使用electron-builder构建可执行程序
-? author w4ngzhen <w4ngzhen@hotmail.com>
+? author XXX
 
    vue-cli · Generated "electron-vue-demo".
 ```

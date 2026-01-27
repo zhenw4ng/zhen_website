@@ -11,7 +11,7 @@ categories:
 
 ## 仓库地址
 
-[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)
+[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)
 
 # Chapter02-Spring依赖注入的方式
 
@@ -315,4 +315,4 @@ The dependencies of some of the beans in the application context form a cycle:
 
 ## 仓库地址
 
-[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)
+[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)

@@ -38,7 +38,7 @@ categories:
 
 ```powershell
 ❯ echo $CEF_ROOT
-/Users/w4ngzhen/projects/thirds/cef_binary_119.4.7+g55e15c8+chromium-119.0.6045.199_macosarm64
+/Users/zhenw4ng/projects/thirds/cef_binary_119.4.7+g55e15c8+chromium-119.0.6045.199_macosarm64
 # 配置完成后，请确保环境变量生效
 ```
 
@@ -594,4 +594,4 @@ endforeach ()
 
 在本文，我们基本上完成了在macOS下基于CEF的多进程应用架构的项目CMake配置，并结合实际的配置，逐一说明了CMake的相关用法和配置细节。在下一篇文章中，我们会基于此文搭建的项目，逐步介绍并编写macOS下基于CEF应用程序的代码，其中会涉及到macOS下Cocoa框架知识简介。
 
-本文仓库链接：[w4ngzhen/cef_app_macos_project (github.com)](https://github.com/w4ngzhen/cef_app_macos_project)
+本文仓库链接：[zhenw4ng/cef_app_macos_project (github.com)](https://github.com/zhenw4ng/cef_app_macos_project)

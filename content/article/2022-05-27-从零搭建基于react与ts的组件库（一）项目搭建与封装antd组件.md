@@ -700,5 +700,4 @@ index 3070d07..09ca792 100644
 
 本文所搭建的整个项目，我都按照文章一步一步进行了git提交，开发小伙伴可以边阅读文章边对照git提交一步一步来看。
 
-github地址：[w4ngzhen/r-ui (github.com)](https://github.com/w4ngzhen/r-ui)
-
+github地址：[zhenw4ng/r-ui (github.com)](https://github.com/zhenw4ng/r-ui)

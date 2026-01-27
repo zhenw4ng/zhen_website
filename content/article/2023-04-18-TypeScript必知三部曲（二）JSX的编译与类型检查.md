@@ -245,7 +245,7 @@ yarn add -D typescript
 由于本example中我们没有编写tsx代码，还是用的jsx代码，如果不配置`"allowJs": true`，那么tsc编译器默认将不会处理js以及jsx文件，又因为example中src目录下只有jsx文件，于是会出现报错：
 
 ```
-error TS18003: No inputs were found in config file '/Users/w4ngzhen/projects/web-projects/jsx-tsc-example/tsconfig.json'. Specified 'include' paths were '["**/*"]' and 'exclude' paths were '["dist"]'.
+error TS18003: No inputs were found in config file '/Users/zhenw4ng/projects/web-projects/jsx-tsc-example/tsconfig.json'. Specified 'include' paths were '["**/*"]' and 'exclude' paths were '["dist"]'.
 ```
 
 后续如果是TSX的文件，将不会出现这个问题，也不用显式配置该选项。
