@@ -40,7 +40,7 @@ target_name: "the-demo" => target_name: "the_demo"
 
 ## 编写样例
 
-这里不再赘述样例，直接使用这篇文章建立一个demo：[使用node-gyp编写简单的node原生模块 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/383948462)，或是[使用node-gyp编写简单的node原生模块 - zhenw4ng - 博客园 (cnblogs.com)](https://www.cnblogs.com/zhenw4ng/p/14931367.html)。
+这里不再赘述样例，直接使用这篇文章建立一个demo：[使用node-gyp编写简单的node原生模块 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/383948462)。
 
 Demo编写完成后，我们修改其中的target_name，使其带有中横线（"-"）：
 

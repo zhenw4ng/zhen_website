@@ -191,7 +191,7 @@ public class MyWebToolWindowContent {
         // 将 JBCefBrowser 的UI控件设置到Panel中
         this.content.add(jbCefBrowser.getComponent(), BorderLayout.CENTER);
         // 加载URL
-        jbCefBrowser.loadURL("https://cnblogs.com/zhenw4ng");
+        jbCefBrowser.loadURL("https://zhen.wang");
     }
 
     /**

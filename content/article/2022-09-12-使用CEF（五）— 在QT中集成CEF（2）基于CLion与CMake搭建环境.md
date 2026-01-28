@@ -271,8 +271,8 @@ Build finished
 ```diff
      // 以下是将 SimpleHandler 与窗体进行关联的代码
      CefWindowInfo cef_wnd_info;
--    QString str_url = "https://www.cnblogs.com/zhenw4ng";
-+    std::string str_url = "https://www.cnblogs.com/zhenw4ng";
+-    QString str_url = "https://zhen.wang";
++    std::string str_url = "https://zhen.wang";
      QRect rect = this->geometry();
      CefRect win_rect(
              rect.left(),
