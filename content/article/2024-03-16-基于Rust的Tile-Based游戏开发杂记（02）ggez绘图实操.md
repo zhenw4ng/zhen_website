@@ -418,7 +418,7 @@ pub struct DrawParam {
 
 ![220-3d-cube](https://static-res.zhen.wang/images/post/2024-03-16/220-3d-cube.gif)
 
-本章代码仓库地址：[zhenw4ng/rs-game-dev (github.com)](https://github.com/zhenw4ng/rs-game-dev)
+本章代码仓库地址：[w4ngzhen/rs-game-dev (github.com)](https://github.com/w4ngzhen/rs-game-dev)
 
 ```
 cargo run --package chapter_02

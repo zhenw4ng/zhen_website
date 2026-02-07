@@ -106,7 +106,7 @@ export interface ServerResponseWrapper {
 {
     "returnCode": "SUC00000",
     "data": {
-        "username": "zhenw4ng",
+        "username": "w4ngzhen",
         "lastLoginTime": "2022-11-22 11:50:22.000"
     }
 }
@@ -544,7 +544,7 @@ export class AppModule {}
 
 ```json
 {
-    "name": "zhenw4ng"
+    "name": "w4ngzhen"
 }
 ```
 
@@ -743,7 +743,7 @@ export class WsServiceExceptionFilter implements WsExceptionFilter {
 
 本次demo已经提交至github
 
-[zhenw4ng/nest-http-websocket-demo (github.com)](https://github.com/zhenw4ng/nest-http-websocket-demo)
+[w4ngzhen/nest-http-websocket-demo (github.com)](https://github.com/w4ngzhen/nest-http-websocket-demo)
 
 同时，按照每一阶段进行了适配提交：
 

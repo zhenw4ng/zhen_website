@@ -102,7 +102,7 @@ yarn add -D typescript
   "name": "solidjs-webpack-ts-example",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "zhenw4ng",
+  "author": "w4ngzhen",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.3",
@@ -333,4 +333,4 @@ render(() => <HelloWorld/>, document.querySelector('#app')!)
 
 项目代码地址：
 
-[zhenw4ng/solidjs-webpack-ts-example (github.com)](https://github.com/zhenw4ng/solidjs-webpack-ts-example)
+[w4ngzhen/solidjs-webpack-ts-example (github.com)](https://github.com/w4ngzhen/solidjs-webpack-ts-example)

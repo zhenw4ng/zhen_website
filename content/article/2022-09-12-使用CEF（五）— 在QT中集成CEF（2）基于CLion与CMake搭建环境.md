@@ -61,7 +61,7 @@ QtCefCMakeDemo
                 zh-TW.pak
 ```
 
-并且在`QtCefCMakeDemo`目录下创建一个`src`目录，用以存放cpp代码。将咱们在《在QT中集成CEF（1）》中编写的相关代码存放于该目录下（[QtCefDemo/QtCefDemo at main · zhenw4ng/QtCefDemo (github.com)](https://github.com/zhenw4ng/QtCefDemo/tree/main/QtCefDemo)）：
+并且在`QtCefCMakeDemo`目录下创建一个`src`目录，用以存放cpp代码。将咱们在《在QT中集成CEF（1）》中编写的相关代码存放于该目录下（[QtCefDemo/QtCefDemo at main · w4ngzhen/QtCefDemo (github.com)](https://github.com/w4ngzhen/QtCefDemo/tree/main/QtCefDemo)）：
 
 ```
 QtCefCMakeDemo
@@ -328,6 +328,6 @@ Build finished
 
 与本文相关的代码已经提交至Github，且按照整个文章的编写流程进行提交：
 
-[zhenw4ng/QtCefCmakeDemo (github.com)](https://github.com/zhenw4ng/QtCefCmakeDemo)
+[w4ngzhen/QtCefCmakeDemo (github.com)](https://github.com/w4ngzhen/QtCefCmakeDemo)
 
 ![080-git-commits](https://static-res.zhen.wang/images/post/2022-09-12/080-git-commits.png)

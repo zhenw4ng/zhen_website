@@ -11,7 +11,7 @@ categories:
 
 ## 仓库地址
 
-[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)
+[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)
 
 # Chapter04-基于SpringBoot的书籍管理Web服务
 
@@ -218,4 +218,4 @@ public class BookManagementSystemApp {
 
 ## 仓库地址
 
-[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)
+[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)

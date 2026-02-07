@@ -83,7 +83,7 @@ gyp首先根据C/C++源码目录下的binding.gyp文件+操作系统（Windows�
 
 ![](https://static-res.zhen.wang/images/post/2021-03-27-node-gyp/execFile-stdout.jpg)
 
-而在这一步当中，如果执行出现了异常就会导致node-gyp的执行过程出现异常，进而导致需要原生编译的模块无法完成安装等。为了方便开发人员进行在Windows上查找VS2017以及以上版本，我把这段代码和CSharp代码提取出来，放在了[github仓库（zhenw4ng/node-gyp-find-vs-check）](https://github.com/zhenw4ng/node-gyp-find-vs-check)，读者如果出现了问题，可以直接下载脚本和CSharp代码进行环境的确认。
+而在这一步当中，如果执行出现了异常就会导致node-gyp的执行过程出现异常，进而导致需要原生编译的模块无法完成安装等。为了方便开发人员进行在Windows上查找VS2017以及以上版本，我把这段代码和CSharp代码提取出来，放在了[github仓库（w4ngzhen/node-gyp-find-vs-check）](https://github.com/w4ngzhen/node-gyp-find-vs-check)，读者如果出现了问题，可以直接下载脚本和CSharp代码进行环境的确认。
 
 当然，有些读者的机器还是VS2015或者VS2013等版本，我们继续分析。
 

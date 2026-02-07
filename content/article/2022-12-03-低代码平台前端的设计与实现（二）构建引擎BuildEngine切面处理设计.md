@@ -281,6 +281,6 @@ export function CustomCreateElementExample() {
 
 本文的所有内容已经提交至github仓库
 
-[zhenw4ng/lite-lc (github.com)](https://github.com/zhenw4ng/lite-lc)
+[w4ngzhen/lite-lc (github.com)](https://github.com/w4ngzhen/lite-lc)
 
 本章对应tag为chapter_02

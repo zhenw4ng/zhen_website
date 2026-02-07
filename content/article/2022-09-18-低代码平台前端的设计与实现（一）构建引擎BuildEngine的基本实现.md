@@ -417,7 +417,7 @@ export function SimpleExample() {
 
 本章内容对应代码已经推送到github上
 
-[zhenw4ng/lite-lc (github.com)](https://github.com/zhenw4ng/lite-lc)
+[w4ngzhen/lite-lc (github.com)](https://github.com/w4ngzhen/lite-lc)
 
 main分支与最新文章同步，对应章节将会有对应的tag来标识。
 

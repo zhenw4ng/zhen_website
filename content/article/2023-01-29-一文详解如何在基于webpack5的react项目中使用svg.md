@@ -204,4 +204,4 @@ module.exports = {
 
 本文相关demo已提交至webpack5-react-demo的svg_use_case分支，供读者参考：
 
-[zhenw4ng/webpack5-react-demo at svg_use_case (github.com)](https://github.com/zhenw4ng/webpack5-react-demo/tree/svg_use_case)
+[w4ngzhen/webpack5-react-demo at svg_use_case (github.com)](https://github.com/w4ngzhen/webpack5-react-demo/tree/svg_use_case)

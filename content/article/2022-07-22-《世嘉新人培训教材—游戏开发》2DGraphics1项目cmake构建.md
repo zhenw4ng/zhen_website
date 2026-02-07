@@ -363,4 +363,4 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 
 # 附录：项目地址
 
-本cmake移植的项目地址在：[zhenw4ng/2DGraphics1_cmake (github.com)](https://github.com/zhenw4ng/2DGraphics1_cmake)
+本cmake移植的项目地址在：[w4ngzhen/2DGraphics1_cmake (github.com)](https://github.com/w4ngzhen/2DGraphics1_cmake)

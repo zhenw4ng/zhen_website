@@ -449,6 +449,6 @@ if (dialog_type == JSDIALOGTYPE_PROMPT) {
 
 # 源码
 
-[zhenw4ng/intellij-jcef-plugin (github.com)](https://github.com/zhenw4ng/intellij-jcef-plugin)
+[w4ngzhen/intellij-jcef-plugin (github.com)](https://github.com/w4ngzhen/intellij-jcef-plugin)
 
-本次相关代码提交：[support JsDialog](https://github.com/zhenw4ng/intellij-jcef-plugin/commit/7df78f33845db89f46e33663967f9c5780cb5dca)
+本次相关代码提交：[support JsDialog](https://github.com/w4ngzhen/intellij-jcef-plugin/commit/7df78f33845db89f46e33663967f9c5780cb5dca)

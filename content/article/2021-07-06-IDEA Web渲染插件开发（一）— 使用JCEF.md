@@ -155,7 +155,7 @@ tasks.withType(JavaCompile) {
 
 可以看到，此时的ToolWindow中的内容显示为我们上面设置的`new JLabel("hello, world")`，该ToolWindow上方有我们设置的"My Tab"标题。截至目前的代码，包含在这个github上这个提交：
 
-[simple ToolWindow Content · zhenw4ng/intellij-jcef-plugin@bf2ca8e (github.com)](https://github.com/zhenw4ng/intellij-jcef-plugin/commit/bf2ca8eb71c36a46077d222b031439537d8015cd)
+[simple ToolWindow Content · w4ngzhen/intellij-jcef-plugin@bf2ca8e (github.com)](https://github.com/w4ngzhen/intellij-jcef-plugin/commit/bf2ca8eb71c36a46077d222b031439537d8015cd)
 
 ## Web页面ToolWindow开发
 
@@ -218,10 +218,10 @@ public class MyWebToolWindowContent {
 
 # 附录
 
-本次代码本人放在了Github上，地址为：[zhenw4ng/intellij-jcef-plugin (github.com)](https://github.com/zhenw4ng/intellij-jcef-plugin)。
+本次代码本人放在了Github上，地址为：[w4ngzhen/intellij-jcef-plugin (github.com)](https://github.com/w4ngzhen/intellij-jcef-plugin)。
 
 上面**基础ToolWindow开发**以及**web页面ToolWindow开发**两节的内容，按如下提交对应：
 
-基础ToolWindow开发 ：[simple ToolWindow Content · zhenw4ng/intellij-jcef-plugin@bf2ca8e (github.com)](https://github.com/zhenw4ng/intellij-jcef-plugin/commit/bf2ca8eb71c36a46077d222b031439537d8015cd)
+基础ToolWindow开发 ：[simple ToolWindow Content · w4ngzhen/intellij-jcef-plugin@bf2ca8e (github.com)](https://github.com/w4ngzhen/intellij-jcef-plugin/commit/bf2ca8eb71c36a46077d222b031439537d8015cd)
 
-web页面ToolWindow开发：[web ToolWindow Content · zhenw4ng/intellij-jcef-plugin@45604d3 (github.com)](https://github.com/zhenw4ng/intellij-jcef-plugin/commit/45604d374eaead417b16df2ade1b5d6700e291f3)
+web页面ToolWindow开发：[web ToolWindow Content · w4ngzhen/intellij-jcef-plugin@45604d3 (github.com)](https://github.com/w4ngzhen/intellij-jcef-plugin/commit/45604d374eaead417b16df2ade1b5d6700e291f3)

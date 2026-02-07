@@ -11,7 +11,7 @@ categories:
 
 ## 仓库地址
 
-[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)
+[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)
 
 # Chapter03-基于SpringBoot的Web服务
 
@@ -237,4 +237,4 @@ public @interface Controller {
 
 ## 仓库地址
 
-[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)
+[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)

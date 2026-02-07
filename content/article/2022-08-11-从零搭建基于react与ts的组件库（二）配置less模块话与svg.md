@@ -12,7 +12,7 @@ categories:
 
 <!-- more -->
 
-本文所有修改的代码分支为chapter02位于[zhenw4ng/r-ui (github.com)](https://github.com/zhenw4ng/r-ui)仓库的`chapter02_less_and_svg`分支，该分支基于上一篇文章的`chapter01_init`分支而来（main分支总是显示最新的内容）。
+本文所有修改的代码分支为chapter02位于[w4ngzhen/r-ui (github.com)](https://github.com/w4ngzhen/r-ui)仓库的`chapter02_less_and_svg`分支，该分支基于上一篇文章的`chapter01_init`分支而来（main分支总是显示最新的内容）。
 
 为了讲解如何进行less模块化配置以及如何引入svg作为组件库的一部分，我们设想这样一个需求：一个搜索输入框，左侧是一个svg的icon搜索图标，右侧是输入框。
 

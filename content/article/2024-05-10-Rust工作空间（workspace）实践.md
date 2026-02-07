@@ -168,7 +168,7 @@ members = ["my_app", "my_lib"]
 + version = "0.1.0"
 + edition = "2021"
 + license = "MIT OR Apache-2.0"
-+ authors = ["zhenw4ng"]
++ authors = ["w4ngzhen"]
 
 [workspace.dependencies]
 serde = { version = "1.0.201" }

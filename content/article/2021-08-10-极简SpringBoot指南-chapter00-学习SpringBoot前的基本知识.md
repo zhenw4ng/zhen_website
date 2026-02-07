@@ -11,7 +11,7 @@ categories:
 
 ## 仓库地址
 
-[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)
+[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)
 
 # Chapter00 学习SpringBoot前的基本知识
 
@@ -368,4 +368,4 @@ public class IocApp {
 
 ## 仓库地址
 
-[zhenw4ng/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/zhenw4ng/springboot-simple-guide)
+[w4ngzhen/springboot-simple-guide: This is a project that guides SpringBoot users to get started quickly through a series of examples (github.com)](https://github.com/w4ngzhen/springboot-simple-guide)
